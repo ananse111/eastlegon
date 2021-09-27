@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: burlywood;
+    background-color: rgb(204, 17, 173);
     align-items: center;
     display: flex;
     justify-content: center;
@@ -11,7 +11,7 @@ body{
 h1 span{
     display: flex;
     font-size: 18px;
-    color: white;
+   
     align-items: center;
     justify-content: center;
 }
@@ -19,14 +19,23 @@ h1 span{
 form{
     display: flex;
     flex-direction: column;
-    margin-top: 150px;
+    margin-top: 30px;
     height: 600px;
-    background-color: rgb(45, 84, 190);
+    background-color: rgb(246, 247, 250);
     width: 400px;
-    border-radius: 7px;
+    border-radius: 0px;
+    transition: all 4s ease ease-in-out;
 }
 input{
-    border-radius: 5px;
+    border-radius: 20px;
+    width: 350px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    height: 30px;
+   
+
+
     
 }
 .form-element{
@@ -34,14 +43,33 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-bottom: 10px;
+outline: none;
 }
 .header{
-    margin: 30px;
+    height: 80px;
+    background-color: rgb(250, 248, 250);
+    width: 400px;
+    border-radius: 5px;
 }
 select{
     border-radius: 5px;
+    width: 350px;  
+    outline: none;
+    display: inline-block;
+    border: none;
+    background-color: royalblue;
+    color: white;
+    align-items: center;
+    height: 30px;
+    
+
+}
+select option{
+    font-family: sans-serif;
+    font-size: 7px;
 
 }
 label{
     color: white;
+    margin: 5px;
 }
