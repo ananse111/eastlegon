@@ -78,7 +78,7 @@ label{
     color: white;
     margin: 5px;
 }
-@media  (max-width :400px) {
+@media  (max-width :600px) {
     form{
         width: 200px;
 
