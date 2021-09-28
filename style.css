@@ -27,12 +27,16 @@ form{
     transition: all 4s ease ease-in-out;
 }
 input{
-    border-radius: 20px;
+    border-radius: 0px;
     width: 350px;
     box-sizing: border-box;
     outline: none;
     border: none;
+    border-bottom: black;
     height: 30px;
+    background-color: cornflowerblue;
+    color: white;
+    
    
 
 
@@ -52,7 +56,7 @@ outline: none;
     border-radius: 5px;
 }
 select{
-    border-radius: 5px;
+    border-radius: 0px;
     width: 350px;  
     outline: none;
     display: inline-block;
@@ -61,6 +65,7 @@ select{
     color: white;
     align-items: center;
     height: 30px;
+    margin-top: 10px;
     
 
 }
@@ -73,3 +78,19 @@ label{
     color: white;
     margin: 5px;
 }
+@media  (max-width :400px) {
+    form{
+        width: 200px;
+
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        background-color: rgb(88, 216, 203)
+    }
+    select{
+        width: auto;
+    }
+    input{
+        width: 120px;
+    }
+    }
