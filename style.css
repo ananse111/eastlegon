@@ -2,11 +2,16 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(204, 17, 173);
+    background-image: url(/hotel.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
     align-items: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
+    width: auto;
 }
 h1 span{
     display: flex;
@@ -60,7 +65,6 @@ select{
     border-radius: 0px;
     width: 350px;  
     outline: none;
-    display:;
     border: none;
     background-color: royalblue;
     color: white;
@@ -71,7 +75,7 @@ select{
 
 }
 select option{
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 7px;
     width: 80px;
 
