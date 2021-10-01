@@ -13,12 +13,20 @@ body{
     flex-direction: column;
     width: auto;
 }
-h1 span{
+h2 {
     display: flex;
     font-size: 18px;
-   
+   color: white;
     align-items: center;
     justify-content: center;
+}
+
+.form-element1{
+    margin-bottom: 30px;
+    background-color: rgb(10, 23, 207);
+    font-family: 'Courier New', Courier, monospace;
+    height: 80px;
+    border-bottom: red solid 3px;
 }
 
 form{
@@ -26,11 +34,11 @@ form{
     flex-direction: column;
     margin-top: 30px;
     height: 600px;
-    background-color: rgb(246, 247, 250, 0.5);
+    background-color: rgba(1, 6, 20, 0.7);
     width: 400px;
     border-radius: 0px;
     transition: all 4s ease ease-in-out;
-    height: 2000px;
+    height: 2500px;
 
 }
 input{
@@ -38,11 +46,11 @@ input{
     width: 350px;
     box-sizing: border-box;
     outline: none;
-    border: none;
+    border: rgb(41, 5, 139) 1px solid;
    
     height: 30px;
-    background-color: cornflowerblue;
-    color: white;
+    background-color: rgb(12, 22, 165);
+    color: rgb(118, 203, 243);
     
    
 
@@ -55,14 +63,16 @@ flex-direction: column;
 align-items: center;
 margin-bottom: 20px;
 outline: none;
-background-color: rgba(11, 45, 107, 0.7);
+background-color: rgba(0, 4, 12, 0.9);
 height: 80px;
+border: rgb(4, 26, 126) solid 2px;
 }
 .header{
     height: 80px;
     background-color: rgb(250, 248, 250);
     width: 400px;
     border-radius: 5px;
+    
 }
 select{
     border-radius: 0px;
@@ -78,6 +88,8 @@ select{
     
 
 }
+
+
 select option{
     font-family: 'Courier New', Courier, monospace;
     font-size: 7px;
@@ -87,8 +99,22 @@ select option{
 label{
     color: white;
     margin: 5px;
+}
+.form-element-date{
+    display: inline-flex ;
+    margin-bottom: 20px;
+    height: 70px;
+    display: inline-flex;
+    padding-top: 20px;
+    background-color: black;
+    
 
-
+}
+.date{
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 10px;
 }
 
 @media  (max-width :700px) {
@@ -110,6 +136,6 @@ label{
         width: 220px;
     }
     h2{
-        font-size: 10px;
+        font-size: 30px;
     }
     }

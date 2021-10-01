@@ -10,7 +10,7 @@
 <body>
     <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSckhgrNE8O_AIewQHkrcCUN8j3mApD9sZwTP_e-1HsoZtdlaw/formResponse" method="POST">
     
-    <div class="form-element">
+    <div class="form-element1">
         <h2>EAST LEGON REVENUE FORM</h2>
     </div>
     <div class="form-element">
@@ -67,9 +67,11 @@
         </select>
     </div>
     
-    <div class="form-element">
+    <div class="form-element-date">
         <label for="check-in">Check-in Date</label>
-        <input name="entry.367570476" type="date" >
+        <input class="date" name="entry.126356242_day" type="number" >
+        <input class="date" name="entry.126356242_month" type="number" >
+        <input class="date" name="entry.126356242_year" type="number" >
     </div>
 
     <div class="form-element">
@@ -118,7 +120,16 @@
 
         <div class="form-element">
             <label for="Booking Platform">Booking Platform</label>
-            <input name="eentry.1960254465" type="text">
+           <select name="entry.1960254465" id="">
+               <option value="">
+                   BOOKING.COM
+               </option>
+
+               <OPTION>EXPEDIA</OPTION>
+               <option value="">AIRBNB</option>
+               <option value="">ALAWEB</option>
+               <option value="">3RD PARTY</option>
+           </select>
         </div>
 
         <div class="form-element">
@@ -217,15 +228,15 @@
             </option>
         </select>
 
-      <div class="form-element1">
+      <div class="form-element">
           Comments
           <textarea name="entry.244081420" id="" cols="30" rows="10"></textarea>
       </div>
-
+<div class="form-element">
 <button>submit</button>
-
-    </div>
-    .</div>
+</div>
+    
+   
     </form>
 </body>
 </html>
